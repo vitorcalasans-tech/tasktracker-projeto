@@ -1,0 +1,15 @@
+# Arquivos temporários gerados pelo Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Arquivos de editores e do sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
