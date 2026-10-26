@@ -1,0 +1,12 @@
+services:
+  tasktracker:
+    # Constrói a imagem usando o Dockerfile da pasta atual
+    build: .
+    # Nome da imagem gerada
+    image: tasktracker-app
+    # Nome do container (aparece no "docker ps")
+    container_name: tasktracker-app
+    # Mantém o canal de entrada aberto, para o input() receber o que você digita
+    stdin_open: true
+    # Cria um terminal virtual, para o menu se comportar como no seu console
+    tty: true
